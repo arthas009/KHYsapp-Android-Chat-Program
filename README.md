@@ -10,4 +10,4 @@ In MainActivity.java make sure the "Targetaddr" variable contains the same value
 
 # Simple results
 ![alt text](https://github.com/arthas009/KHYsapp-Android-Chat-Program/blob/master/guidance/fromArthas.png)
-![alt text](https://github.com/arthas009/KHYsapp-Android-Chat-Program/blob/master/guidance/toArthas2.JPG)
+![alt text](https://github.com/arthas009/KHYsapp-Android-Chat-Program/blob/master/guidance/toArthas2.png)
