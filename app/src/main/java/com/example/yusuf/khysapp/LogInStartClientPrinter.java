@@ -187,7 +187,7 @@ public class LogInStartClientPrinter extends AsyncTask<Void, Void, Void> {
                 }
             }
             printersocket.close();
-            return ;
+            return;
         }
         catch (Exception e)
         {

@@ -38,11 +38,6 @@ public class MainActivity extends AppCompatActivity {
         autologin(p1); // Auto login set function
     }
 
-
-
-
-
-
     ////////////////////********************------FUNCTIONS--------********////////////////////////////////////////////////////
     public void logIn(String username, String password,boolean is_auto_logged) throws IOException, InterruptedException {
         if(!is_auto_logged) {

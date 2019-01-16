@@ -40,9 +40,6 @@ public class AfterLoginScreen extends AppCompatActivity {
         wentback = true;
     }
 
-
-
-
     ////////////////////********************------FUNCTIONS--------********////////////////////////////////////////////////////
     public void logout()
     {
