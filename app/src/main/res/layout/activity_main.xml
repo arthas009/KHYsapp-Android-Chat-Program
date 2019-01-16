@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/KHYSAPPmaincolor"
+    tools:context="com.example.yusuf.khysapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:text="@string/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:text="@string/textView2" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/editText"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="21dp"
+        android:background="@color/LoginScreenButtonBackgroundColor"
+        android:text="Giriş"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textColor="#ffff"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textColor="@color/LoginScreenButtonBackgroundColor"
+        android:text="@string/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/button"
+        android:text="@string/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/toggleButton"
+        android:layout_marginBottom="16dp"
+        android:background="@color/LoginScreenButtonBackgroundColor"
+        android:onClick="RegisterScreen"
+        android:text="@string/button1"
+        android:textColor="#ffff" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleButton2"
+        android:layout_alignBottom="@+id/toggleButton2"
+        android:layout_alignEnd="@+id/editText2"
+        android:text="Beni Hatırla" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="Bilgileri Hatırla"
+        android:textAppearance="@android:style/TextAppearance.Material" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignTop="@+id/button2"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/toggleButton2"
+        android:layout_below="@+id/toggleButton2"
+        android:text="Otomatik Giriş"
+        android:textAppearance="@android:style/TextAppearance.Material" />
+</RelativeLayout>

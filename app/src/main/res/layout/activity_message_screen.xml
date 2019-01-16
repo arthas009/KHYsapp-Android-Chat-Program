@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/KHYSAPPmaincolor"
+    tools:context="com.example.yusuf.khysapp.MessageScreen">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="368dp"
+        android:layout_height="453dp"
+        android:layout_above="@+id/messageToSend"
+        android:layout_centerHorizontal="true"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Yolla"
+        android:background="@color/LoginScreenButtonBackgroundColor"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/messageToSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/SendButton"
+        android:ems="10"
+        android:hint="Mesajınızı Yazınız"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

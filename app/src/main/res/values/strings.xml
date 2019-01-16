@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KHYsapp</string>
+    <string name="textView1">Kullanıcı Adı</string>
+    <string name="textView2">Şifre</string>
+    <string name="title_activity_after_login_screen">AfterLoginScreen</string>
+    <string name="textView3">Hoşgeldiniz</string>
+    <string name="textView4">Henüz kayıt olmadın mı ?</string>
+    <string name="button1">Kayıt Ol</string>
+    <string name="registerButton">Kayıt Ol</string>
+    <string name="kayittextView">KHYsapp Kayıt</string>
+    <string name="checkBox1">Otomatik Giriş</string>
+    <string name="button4">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
