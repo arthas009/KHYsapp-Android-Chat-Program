@@ -41,7 +41,6 @@ public class AfterLoginScreen extends AppCompatActivity {
         super.onStart();
         wentback = true;
     }
-
     ////////////////////********************------FUNCTIONS--------********////////////////////////////////////////////////////
     public void logout()
     {
