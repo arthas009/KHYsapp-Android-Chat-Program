@@ -3,8 +3,8 @@ package com.example.yusuf.khysapp.Activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
@@ -14,15 +14,15 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.example.yusuf.khysapp.Adapters.UserListCustomAdapter;
-import com.example.yusuf.khysapp.R;
 import com.example.yusuf.khysapp.Fragments.UserListFragment;
+import com.example.yusuf.khysapp.R;
 
 public class AfterLoginScreen extends AppCompatActivity {
-
-    public static String[] userlist;
+    public static String[] userlist; // HOLDS THE USERS IN LIST
     Button log_out,show_messages;
     ListView UserList;
     public static boolean wentback=true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

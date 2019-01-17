@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ToggleButton remember_me,auto_login;
     public static boolean WaitForSignal, is_succeed,unf,server_is_close; // unf = USER NOT FOUND, is_succeed = success login,
     // server_is_close = decide server is close or not
-    public static String name , surname;
+    public static String name , surname; // name and surname
 
     ////////////////////********************------OVERRIDE--------********////////////////////////////////////////////////////
     @Override
