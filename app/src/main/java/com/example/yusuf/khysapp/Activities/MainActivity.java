@@ -1,4 +1,4 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+
+import com.example.yusuf.khysapp.Controller.LogInStartClientPrinter;
+import com.example.yusuf.khysapp.R;
+
 import java.io.IOException;
 
 

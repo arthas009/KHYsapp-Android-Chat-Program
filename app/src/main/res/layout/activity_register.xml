@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/KHYSAPPmaincolor"
-    tools:context="com.example.yusuf.khysapp.RegisterActivity">
+    tools:context="com.example.yusuf.khysapp.Activities.RegisterActivity">
 
 
     <TextView
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.example.yusuf.khysapp.RegisterFragment"
+        android:name="com.example.yusuf.khysapp.Fragments.RegisterFragment"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_alignParentStart="true"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/KHYSAPPmaincolor"
-    tools:context="com.example.yusuf.khysapp.RegisterFragment">
+    tools:context="com.example.yusuf.khysapp.Fragments.RegisterFragment">
 
 
     <Button

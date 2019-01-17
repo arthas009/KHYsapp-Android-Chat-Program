@@ -1,4 +1,4 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Adapters;
 
 import android.content.Context;
 import android.sax.TextElementListener;
@@ -11,10 +11,12 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.example.yusuf.khysapp.R;
+
 public class UserListCustomAdapter extends ArrayAdapter<String> {
     TextView userShow ;
     public UserListCustomAdapter(Context context, String[] Users) {
-        super(context,R.layout.user_list_adapter_layout, Users);
+        super(context, R.layout.user_list_adapter_layout, Users);
 
 
     }

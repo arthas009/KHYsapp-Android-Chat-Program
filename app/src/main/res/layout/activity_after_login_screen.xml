@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/KHYSAPPmaincolor"
-    tools:context="com.example.yusuf.khysapp.AfterLoginScreen">
+    tools:context="com.example.yusuf.khysapp.Activities.AfterLoginScreen">
 
     <Button
         android:id="@+id/button4"
@@ -29,7 +29,7 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.example.yusuf.khysapp.UserListFragment"
+        android:name="com.example.yusuf.khysapp.Fragments.UserListFragment"
         android:layout_width="271dp"
         android:layout_height="343dp"
         android:layout_alignParentTop="true"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/KHYSAPPmaincolor"
-    tools:context="com.example.yusuf.khysapp.MainActivity">
+    tools:context="com.example.yusuf.khysapp.Activities.MainActivity">
 
     <TextView
         android:id="@+id/textView1"

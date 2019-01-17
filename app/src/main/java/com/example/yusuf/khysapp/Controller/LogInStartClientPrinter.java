@@ -1,10 +1,12 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Controller;
 import android.app.Activity;
-import android.content.Context;
 import android.os.AsyncTask;
-import android.util.Log;
-import android.widget.ListAdapter;
 import android.widget.ListView;
+
+import com.example.yusuf.khysapp.Activities.AfterLoginScreen;
+import com.example.yusuf.khysapp.Activities.MainActivity;
+import com.example.yusuf.khysapp.Activities.MessageScreen;
+import com.example.yusuf.khysapp.Activities.RegisterActivity;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

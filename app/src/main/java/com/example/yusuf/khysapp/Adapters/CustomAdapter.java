@@ -1,9 +1,12 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Adapters;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.*;
 import android.widget.*;
+
+import com.example.yusuf.khysapp.LinkedList.MyLinkedList;
+import com.example.yusuf.khysapp.R;
 
 public class CustomAdapter extends ArrayAdapter
 {
@@ -12,7 +15,7 @@ public class CustomAdapter extends ArrayAdapter
 
     ////////////////////********************------CONSTRUCTOR--------********////////////////////////////////////////////////////
     public CustomAdapter(Activity context,String[] messages) {
-        super(context,R.layout.message_layout, messages);
+        super(context, R.layout.message_layout, messages);
         LinkedList = new MyLinkedList();
         LinkedList.AddStrArray(messages);
         this.context = context;

@@ -1,14 +1,17 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.InputFilter;
-import android.text.Spanned;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.yusuf.khysapp.Controller.LogInStartClientPrinter;
+import com.example.yusuf.khysapp.R;
+import com.example.yusuf.khysapp.Fragments.RegisterFragment;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 

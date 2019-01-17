@@ -1,10 +1,6 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Activities;
 
-import android.app.Activity;
-import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Handler;
-import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,9 +11,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import java.util.List;
+import com.example.yusuf.khysapp.Adapters.CustomAdapter;
+import com.example.yusuf.khysapp.Controller.LogInStartClientPrinter;
+import com.example.yusuf.khysapp.R;
 
 public class MessageScreen extends AppCompatActivity {
 

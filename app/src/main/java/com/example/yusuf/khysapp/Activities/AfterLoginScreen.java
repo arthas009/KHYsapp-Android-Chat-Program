@@ -1,4 +1,4 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.Activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,11 +9,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import com.example.yusuf.khysapp.Adapters.UserListCustomAdapter;
+import com.example.yusuf.khysapp.R;
+import com.example.yusuf.khysapp.Fragments.UserListFragment;
 
 public class AfterLoginScreen extends AppCompatActivity {
 

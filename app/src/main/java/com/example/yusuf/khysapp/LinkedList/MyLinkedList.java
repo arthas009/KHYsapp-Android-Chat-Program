@@ -1,4 +1,4 @@
-package com.example.yusuf.khysapp;
+package com.example.yusuf.khysapp.LinkedList;
 public class MyLinkedList
 {
     private int lastindex;
