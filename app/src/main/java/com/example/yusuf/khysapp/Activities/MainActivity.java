@@ -44,7 +44,12 @@ public class MainActivity extends AppCompatActivity {
 
     ////////////////////********************------FUNCTIONS--------********////////////////////////////////////////////////////
     public void logIn(String username, String password,boolean is_auto_logged) throws IOException, InterruptedException {
-        if(!is_auto_logged) {
+
+        if(!is_auto_logged)
+        {
+            /* THIS SECTION CHECKS THE INPUTS
+             * STRINGS CANNOT CONTAIN ///. BECAUSE IT'S OUR SPLITTER STRING WHILE COMMUNUCATING WITH SERVER
+              * TEXT LENGTHS SHOULD BE BETWEEN 6 AND 30*/
             if (t1.getText().toString().contains("///") || t1.getText().toString().contains("///")) // if contains "///" then error
             {
                 Toast.makeText(this, "/// yasak karakterler", Toast.LENGTH_SHORT).show();
@@ -61,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         }
-        int count = 0;
+        int count = 0; // TO COUNT TIME WHILE CLIENT IS WAITING A ACKNOWLEDGEMENT FROM SERVER
         server_is_close=false; // to decide server is close or not
         WaitForSignal=false; // THIS WILL KEEP ALL PROGRAM IN CONTROL.
         //WAIT FOR SIGNAL ALWAYS KEEPS ACTIVITIES WAITING FOR A SIGNAL FROM REQUESTS
@@ -103,12 +108,14 @@ public class MainActivity extends AppCompatActivity {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void RegisterScreen(View view) // THIS GOES TO REGISTER SCREEN
     {
+        // GO TO THE REGISTER SCREEN ACTIVITY BY CLICKING
         Intent i = new Intent(this, RegisterActivity.class);
         startActivity(i);
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void SuccessfullLogin(String username,String password) // WORKS ON SUCCESSFULL LOGIN
     {
+        //IF REMEMBER ME CHECKBOX IS CLICKED SAVE THE DATA USERNAME AND PASSWORD
         if(remember_me.isChecked())
         {
             SharedPreferences p1;
@@ -119,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
             e.putString("password", password);
             e.apply();
         }
+        //IF NOT, TELL THE SHAREDPREFENCE WE DON'T WANT TO BE REMEMBERED :)
         else
         {
             SharedPreferences p1;
@@ -127,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
             e.putString("rememberme", "no");
             e.apply();
         }
+        // IF AUTO LOGIN CHECKBOX IS CLICKED
         if(auto_login.isChecked())
         {
             SharedPreferences p1;
@@ -137,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
             e.putString("isUpdated","yes");
             e.apply();
         }
+
         Intent i = new Intent(this, AfterLoginScreen.class);
         i.putExtra("username", username);
         i.putExtra("name", name);
