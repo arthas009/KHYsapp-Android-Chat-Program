@@ -8,6 +8,11 @@
     In MainActivity.java make sure the "Targetaddr" variable contains the same value of your Servers IP adress on LAN. You have to check   it.
 ![alt text](https://github.com/arthas009/KHYsapp-Android-Chat-Program/blob/master/guidance/serveradress.JPG)
 
+# Notes
+    It's a simple program. It does not have notifications yet.
+    Of course you can chat with another android program connected into same LAN.
+    Don't forget to change server adress to where your server program https://github.com/arthas009/KhysappServer runs.
+
 
 # Results
 ![alt text](https://github.com/arthas009/KHYsapp-Android-Chat-Program/blob/master/guidance/fromArthas.png)
